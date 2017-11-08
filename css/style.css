@@ -1,0 +1,117 @@
+/* Global styling */
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: tahoma;
+}
+
+/* Navbar */
+.navbar .navbar-dark{
+	margin-top: 3%;
+}
+
+.navbar-brand{
+	margin-left: 5%;
+}
+
+.navbar-dark .navbar-nav .nav-item a{
+	margin-left: 20px;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+
+
+.navbar-dark .navbar-nav .nav-item a:hover{
+	color: #e67e22;
+	border-bottom: 2px solid #0088cc;
+	transition: all 0.5s ease-in-out;
+	padding: 10px 0;
+}
+
+
+/* Hero styling */
+header{
+	background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../img/slider/slide3.jpg') center;
+	background-size: cover;
+	height: 600px;
+	background-attachment: fixed;
+}
+
+.hero{
+	position: absolute;
+	width: 90%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.hero h1{
+	margin-top: 20%;
+	color: #fff;
+}
+.hero p{
+	color: #fff;
+	font-size: 16px;
+}
+
+.hero-btn{
+	margin-top: 5%;
+}
+
+.hero-btn .btn{
+	padding: 10px 30px;
+	color: #fff;
+	font-size: 20px;
+	border: 1px solid #0088cc;
+	text-decoration: none;
+	margin-right: 2%;
+}
+
+.btn-services{
+	background-color: #0088cc;
+	color: #fff;
+}
+
+.btn-about:hover{
+	background-color: #0088cc;
+	color: #fff;
+	transition: all 0.5s ease-in;
+}
+
+/* Section home-features */
+#home-features{
+	margin-top: 5%;
+}
+
+#home-features h3:after{
+	width: 100px;
+	height: 2px;
+	background-color: #0088cc;
+	margin: 0 auto;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	content: " ";
+	display: block;
+}
+
+.page-header-txt{
+	width: 90%;
+	font-size: 16px;
+	text-align: center;
+}
+
+.welcome-text-img img{
+	width: 80%;
+}
+
+
+
+
+
+
+
+
