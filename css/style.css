@@ -2,7 +2,7 @@
 
 /* alternative blue shade #3662df */
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300|Roboto|Roboto+Condensed|Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300|Roboto:100,300,400,700|Roboto+Condensed|Source+Sans+Pro');
 *{
 	margin: 0;
 	padding: 0;
@@ -99,27 +99,48 @@ header .carousel-inner .carousel-item img{
 /* Section home-features */
 #home-features{
 	margin-top: 5%;
+	padding-bottom: 5%;
 }
 
-#home-features h3:after{
+.section-header:after{
 	width: 100px;
 	height: 2px;
 	background-color: #0088cc;
 	margin: 0 auto;
 	margin-top: 2%;
-	margin-bottom: 2%;
+	margin-bottom: 1%;
 	content: " ";
 	display: block;
 }
 
 .page-header-txt{
-	width: 90%;
 	font-size: 16px;
+	font-weight: 300;
+	font-style: italic;
 	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 3%;
+}
+
+.welcome-text p{
+	color: #888;
+	font-weight: 300;
 }
 
 .welcome-text-img img{
 	width: 80%;
+}
+
+
+/* Partners section */
+.our-partners{
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.partner{
+	margin-top: 5%;
+	text-align: center;
 }
 
 
