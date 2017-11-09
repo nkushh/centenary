@@ -302,6 +302,41 @@ header .carousel-inner .carousel-item img{
 	margin-bottom: 5%;
 }
 
+/* Our Team */
+.our-team{
+	padding-top: 5%;
+	padding-bottom: 5%;
+	background-color: #f5f6f7;
+}
+
+.team-member{
+	background-color: #fff;
+	padding-bottom: 3%;
+}
+
+.team-img img{
+	width: 100%;
+	min-height: 200px;
+	max-height: 250px;
+	height: auto;
+}
+
+.team-detail{
+	padding-top: 5%;
+	text-align: center;
+}
+
+/* Awards */
+.awards{
+	background-color: #fff;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.award{
+	margin-top: 10%;
+}
+
 
 /* Footer */
 footer{
