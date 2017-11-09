@@ -102,6 +102,15 @@ header .carousel-inner .carousel-item img{
 	padding-bottom: 5%;
 }
 
+.section-header{
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.section-header span{
+	font-weight: 300;
+}
+
 .section-header:after{
 	width: 100px;
 	height: 2px;
@@ -115,11 +124,12 @@ header .carousel-inner .carousel-item img{
 
 .page-header-txt{
 	font-size: 16px;
-	font-weight: 300;
+	font-weight: 400;
 	font-style: italic;
 	text-align: center;
 	margin: 0 auto;
 	margin-bottom: 3%;
+	color: #888;
 }
 
 .welcome-text p{
@@ -129,6 +139,57 @@ header .carousel-inner .carousel-item img{
 
 .welcome-text-img img{
 	width: 80%;
+}
+
+/* Why-choose-us */
+#why-choose-us{
+	padding-top: 5%;
+	padding-bottom: 5%;
+	background-color: #0088cc;
+}
+
+#why-choose-us .section-header{
+	color: #fff;
+}
+
+#why-choose-us .section-header:after{
+	width: 100px;
+	height: 2px;
+	background-color: #fff;
+	margin: 0 auto;
+	margin-top: 2%;
+	margin-bottom: 1%;
+	content: " ";
+	display: block;
+}
+
+#why-choose-us .page-header-txt{
+	color: #fff;
+}
+
+.reason{
+	text-align: center;
+	margin-bottom: 5%;
+	padding: 10px;
+}
+
+.reason:hover{
+	border: 1px solid #fff;
+}
+
+.reason .fa{
+	font-size: 50px;
+	margin-bottom: 5%;
+	color: #fff;
+}
+
+.reason h4{
+	color: #fff;
+}
+
+.reason p{
+	color: #fff;
+	font-weight: 400;
 }
 
 
