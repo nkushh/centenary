@@ -257,6 +257,7 @@ header .carousel-inner .carousel-item img{
 
 
 /* About Us Page */
+
 .about-us{
 	padding-top: 5%;
 	padding-bottom: 5%;
@@ -335,6 +336,8 @@ header .carousel-inner .carousel-item img{
 
 .award{
 	margin-top: 10%;
+	padding: 10px;
+	text-align: center;
 }
 
 
