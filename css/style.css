@@ -1,4 +1,7 @@
 /* Global styling */
+
+/* alternative blue shade #3662df */
+
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300|Roboto|Roboto+Condensed|Source+Sans+Pro');
 *{
 	margin: 0;
@@ -7,11 +10,18 @@
 
 body{
 	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	font-weight: 400;
 }
 
 /* Navbar */
-.navbar .navbar-dark{
-	margin-top: 3%;
+header .navbar{
+	z-index: 1000;
+	background: none !important;
+	position: absolute;
+	top: 0;
+	width: 100%;
 }
 
 .navbar-brand{
@@ -35,32 +45,35 @@ body{
 
 
 /* Hero styling */
-header{
-	background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../img/slider/slide3.jpg') center;
-	background-size: cover;
-	height: 600px;
-	background-attachment: fixed;
+header .carousel-inner .carousel-item img{
+	width: 100%;
+	height: 100vh;
+	margin: auto;
 }
 
 .hero{
+	background-color: rgba(0,0,0,0.7);
+	width: 100%;
+	height: 100vh;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	color: #fff;
 	position: absolute;
-	width: 90%;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
 }
 
 .hero h1{
 	margin-top: 20%;
-	color: #fff;
+	margin-left: 5%;
 }
 .hero p{
-	color: #fff;
+	margin-left: 5%;
 	font-size: 16px;
 }
 
 .hero-btn{
 	margin-top: 5%;
+	margin-left: 5%;
 }
 
 .hero-btn .btn{
@@ -116,3 +129,24 @@ header{
 
 
 
+
+
+
+
+@media only screen and (max-width: 768px){
+	.hero h1{
+		text-align: center;
+		margin-top: 50%;
+		margin-left: 5%;
+	}
+	.hero p{
+		margin-left: 5%;
+		text-align: center;
+	}
+
+	.hero-btn{
+		text-align: center;
+		margin-top: 5%;
+		margin-left: 5%;
+	}
+}
