@@ -193,6 +193,61 @@ header .carousel-inner .carousel-item img{
 }
 
 
+/* News and Events */
+#news-events{
+	background-color: #f5f6f7;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.post{
+	background-color: #fff;
+}
+
+#news-events a{
+	text-decoration: none;
+	color: none;
+}
+
+#news-events a .post:hover{
+	text-decoration: none;
+	box-shadow: 10px 10px 15px #888888;
+}
+
+#news-events a h4{
+	color: #222;
+}
+
+#news-events a h4:hover{
+	color: #0088cc;
+}
+
+.post-img img{
+	width: 100%;
+	min-height:200px;
+	height: auto;
+	
+}
+
+.post-detail{
+	padding-top: 5%;
+	padding-left: 5%;
+}
+
+.post-detail h4{
+	font-size: 20px;
+}
+
+.post-detail p{
+	color: #777;
+}
+
+.post-snippet{
+	padding: 5%;
+	color: #777;
+}
+
+
 /* Partners section */
 .our-partners{
 	margin-top: 5%;
