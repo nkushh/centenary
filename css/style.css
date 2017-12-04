@@ -36,20 +36,23 @@ header .navbar{
 
 .dropdown-menu{
 	background-color: #0088cc;
-}
-
-a.dropdown-item:hover{
-	background-color: #0088cc;
-	color: #fff;
-	transition: all 0.5s;
+	padding: 0;
 }
 
 
 .navbar-dark .navbar-nav .nav-item a:hover{
-	color: #e67e22;
-	border-bottom: 2px solid #0088cc;
+	color: #FFFF00;
+	border-bottom: 2px solid #FFFF00;
+	transition: all 0.5s ease-in;
+}
+
+.navbar-dark .navbar-nav .nav-item a.dropdown-item:hover{
+	color: #0088cc;
+}
+
+a.dropdown-item:hover{
+	background-color: #fff;
 	transition: all 0.5s;
-	padding: 10px 0;
 }
 
 /* Alternative header for other pages not index page */
@@ -458,6 +461,10 @@ header .carousel-inner .carousel-item img{
 	margin-top: 5%;
 	margin-bottom: 5%;
 	padding: 20px;
+}
+
+.utility-services ol{
+	margin-left: 5%;
 }
 
 .service-item-img{
